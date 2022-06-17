@@ -1,0 +1,122 @@
+Tasks for Thursday Lab(16th June 2022) NAME-SUFIYA SHAHIN
+
+1. Write a Java Program to check given number is even or odd
+package Java;
+
+public class evenodd {
+
+	public static void main(String[] args) {
+		
+		int num=13;
+		 
+		if (num%2==0) 
+			System.out.println("number is even");
+			else 
+				System.out.println("number is odd");
+		
+		
+	}
+
+}
+
+
+2. Write a Java Program to print greatest of three numbers 
+using if else
+
+package Java;
+
+public class greaternum {
+
+	public static void main(String[] args) {
+		int p=12;
+		int q=15;
+		int r=23;
+		
+		if(p>q && p>r) 
+			
+			 System.out.println(p + " is the largest number.");
+			 else if (q>= p && q >= r)
+				 
+		            System.out.println(q + " is the largest number.");
+
+		        else
+		            System.out.println(r + " is the largest number.");
+			
+		
+	}
+
+}
+
+
+
+3. Write a Java Program to print the life period of the 
+user based on user's age
+childhood 1-10 years
+Adolescence 10-16 years
+Teenager 16-19 years 
+Young Adult 19-24
+Adult 24-35
+Middle Age 35-45
+Late Adult 45-60
+senior citizen 60 above	
+
+
+package Java;
+
+public class userage {
+
+	public static void main(String[] args) {
+		int age = 21;
+		if (age>1 && age<11) {
+			System.out.println(" childhood");
+		
+		}
+		else if  (age>10 && age<=16) {
+			System.out.println("Adolescence");
+		}
+		else if (age>16 && age<=19) {
+			System.out.println("Teenager");
+			
+		}
+		else if (age>19 && age<=24) {
+			System.out.println("Young Adult");
+			
+		}
+		else if (age>24 && age<=35) {
+			System.out.println(" Adult");
+		}
+		else if (age>35 && age<=45) {
+			System.out.println(" middle age ");
+		}
+		else if (age>45 && age<=60) {
+			System.out.println(" Late Adult");
+		}
+		else {
+			System.out.println("senior citizen");
+		}
+		
+	}
+
+}
+			
+
+4. Write a program to encrypt a grade by adding 8 to it. Also
+decrpyt it to show the corrent grade.	
+
+package Java;
+
+public class encryptdecrypt {
+
+	public static void main(String[] args) {
+		
+		char a='b';
+		a=(char) (a+8);
+		//type casting
+		
+		System.out.println(a);
+		
+		a=(char) (a-8);
+		System.out.println(a);
+	}
+
+}
